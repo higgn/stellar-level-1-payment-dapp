@@ -40,7 +40,7 @@ npm run dev
 
 Open the local URL printed by Vite, usually `http://localhost:5173`.
 
-## Deploy
+## Deployment
 
 The app is a static Vite site and can be deployed on Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
 
@@ -49,12 +49,6 @@ Recommended Vercel settings:
 - Framework preset: Vite
 - Build command: `npm run build`
 - Output directory: `dist`
-
-After deployment, add the live URL here:
-
-```text
-Live demo: <your-deployed-url>
-```
 
 ## Testnet Usage
 
@@ -67,9 +61,9 @@ Live demo: <your-deployed-url>
 7. Confirm the transaction in Freighter.
 8. Verify the success message, transaction hash, and Stellar Expert link.
 
-## Local Testing Checklist
+## Local Testing
 
-Use Chrome, Brave, or Edge with the Freighter extension installed. The VS Code built-in browser usually cannot access browser extensions, so it may show `Wallet connection failed` even when the app code is correct.
+Use Chrome, Brave, or Edge with the Freighter extension installed.
 
 1. Start the app:
 
@@ -87,7 +81,11 @@ npm run dev
 9. Approve the transaction in Freighter.
 10. Confirm that the app shows `Transaction confirmed`, a transaction hash, and a Stellar Expert link.
 
-Take the required submission screenshots after steps 5, 6, and 10.
+Verified Testnet transaction hash:
+
+```text
+5cb5e5cd48f7bd4a954e17d791897f9c1e0b6cfb9892ed60e973ae8331e61f2d
+```
 
 ## Screenshots
 
