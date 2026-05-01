@@ -2,7 +2,7 @@
 
 StellarPay Testnet is a Level 1 White Belt submission project for the Stellar Journey builder challenge. It is a simple payment dApp that connects Freighter, reads the connected wallet's XLM balance from Stellar Testnet, sends XLM on Testnet, and shows clear transaction feedback with a hash and explorer link.
 
-Repository: https://github.com/higgn/stellar-level-1-payment-dapp.git
+Repository: [https://github.com/higgn/stellar-level-1-payment-dapp.git](https://github.com/higgn/stellar-xlm-payment-app)
 
 ## Features
 
@@ -32,7 +32,7 @@ Requirements:
 - A Freighter account switched to Stellar Testnet
 
 ```bash
-git clone https://github.com/higgn/stellar-level-1-payment-dapp.git
+git clone https://github.com/higgn/stellar-xlm-payment-app
 cd stellar-level-1-payment-dapp
 npm install
 npm run dev
